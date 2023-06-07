@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+function countNumbers() {
+  var positiveCount = 0;
+  var negativeCount = 0;
+  var zeroCount = 0;
+
+  for (var i = 0; i < 10; i++) {
+    var number = Number(prompt("Enter a number:"));
+
+    if (number > 0) {
+      positiveCount++;
+    } else if (number < 0) {
+      negativeCount++;
+    } else {
+      zeroCount++;
+    }
+  }
+
+  console.log("Positive count:", positiveCount);
+  console.log("Negative count:", negativeCount);
+  console.log("Zero count:", zeroCount);
+}
+countNumbers();
+
+
+    
+
+</script>
+</html>
